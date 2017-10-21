@@ -1,0 +1,46 @@
+body{
+	font-family: sans-serif;
+}
+
+ul{
+	/*outline: 1px solid yellow;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	line-height: 30PX;
+}
+
+li {
+	/*outline: 1px solid RED;*/
+	background: #F5F5F0;
+}
+
+a{
+	/*outline: 1px solid green;*/
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	padding-left: 8px;
+}
+
+a:hover {
+background: #E0E0D1;
+}
+
+a:active {
+	background-image: #333333;
+	color: #FFFFFF;
+}
+
+ul li:first-child {
+	background: #FFC107;
+}
+
+ul li:first-child a{
+	color: #FFFFFF;
+}
+
+ul li:first-child a:hover{
+	color: #000000;
+}
